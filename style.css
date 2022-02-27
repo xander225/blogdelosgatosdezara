@@ -1,0 +1,68 @@
+
+html{
+    font-family: 'Hubballi', cursive;
+}
+
+body{
+    margin: 0;
+    background-color:#efefef;
+}
+
+header{
+    background-color: pink;
+    color: #ffffff;
+    padding: 2rem;
+}
+
+header h1{
+    font-size:3rem;
+    text-align: center;
+}
+
+.section1{
+    width: 300px;
+    margin: 0 auto;
+}
+
+section article{
+    background-color: #ffffff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+}
+
+section article:hover{
+    box-shadow:0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+section article h2, section article p{
+    margin:1rem;
+}
+
+section article p{
+    font-size:18px;
+}
+
+footer{
+    background-color: #222222;
+    color:#ffffff;
+    padding:1.5rem;
+    font-size:1rem;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:cornflowerblue;
+}
+
+footer #links_footer{
+    float:right;
+}
+
+#lol{
+    color:Red;
+}
